@@ -2,7 +2,7 @@
 title: "Cm004"
 author: "Gb"
 date: '2017-09-14'
-output: github_document
+output: html_document
 
 ## This is my header
 
@@ -11,13 +11,13 @@ This is a line of text
 -bullet 1
 
 -bullet 2
-```{r, fig.width=3, fig.height=3}
-x <- rnorm(100)
-y <- rnorm(100)
+```{r, fig.width=12, fig.height=6}
+x <- rnorm(200)
+y <- rnorm(200)
 plot (x, y)
 ```
 
 ```{r}
-summary (x)
+summary(x)
 ```
 
